@@ -75,3 +75,19 @@ section{
 #team2-superover {
     margin: 20px;
 }
+
+.button:active{
+    animation: clickbutton 0.3s ease-in-out;
+}
+
+@keyframes clickbutton {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
